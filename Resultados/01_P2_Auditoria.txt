@@ -1,0 +1,36 @@
+Pregunta 2. Auditoría de calidad e integridad de datos
+
+Se realizó una revisión de calidad de la tabla **fact\_superstore** utilizando consultas en Hive.
+
+Los resultados muestran que no existen valores nulos en los campos principales del dataset. También se verificó que no hay registros duplicados utilizando el campo **row\_id**, ya que la consulta no encontró duplicados.
+
+Además, se revisaron posibles errores en los datos y se observó que no existen ventas iguales o menores a cero, no hay descuentos fuera del rango permitido (0 a 1) y tampoco existen registros donde la fecha de envío sea anterior a la fecha de pedido.
+
+Para obtener un resumen de calidad se utilizó la siguiente consulta:
+
+SELECT
+
+COUNT(\*) AS total\_registros,
+
+COUNT(DISTINCT order\_id) AS ordenes\_unicas,
+
+COUNT(DISTINCT customer\_id) AS clientes\_unicos,
+
+SUM(CASE WHEN sales <= 0 THEN 1 ELSE 0 END) AS ventas\_invalidas,
+
+SUM(CASE WHEN discount < 0 OR discount > 1 THEN 1 ELSE 0 END) AS descuentos\_invalidos,
+
+SUM(CASE WHEN ship\_date < order\_date THEN 1 ELSE 0 END) AS fechas\_inconsistentes
+
+FROM fact\_superstore;
+
+**Conclusión:** El dataset tiene buena calidad, ya que no se encontraron valores nulos, duplicados ni errores en ventas, descuentos o fechas.
+
+**Tratamiento propuesto para futuras inconsistencias:**
+
+- Eliminar registros duplicados.
+- Corregir o completar valores nulos.
+- Validar que las ventas sean mayores a cero.
+- Mantener descuentos entre 0 y 1.
+- Verificar que la fecha de envío sea igual o posterior a la fecha de pedido.
+

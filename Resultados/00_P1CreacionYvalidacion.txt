@@ -1,0 +1,3 @@
+Se realizo la validacion de datos con un scripts
+el cual se encuentra en scripts luego se crearon las 2
+tablas correspondientes y el cargado de ambas, con los resultados esperados
