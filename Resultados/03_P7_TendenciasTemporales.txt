@@ -1,0 +1,22 @@
+### Pregunta 7. Análisis de tendencias temporales
+
+Para este análisis se calcularon las ventas y ganancias mensuales utilizando funciones de ventana como **LAG()** para comparar cada mes con el anterior y obtener la variación porcentual. También se realizó una comparación con el mismo mes del año anterior y se calculó un promedio móvil de 3 meses para identificar la tendencia de las ventas.
+
+Se verificó que el dataset contiene información completa desde **enero de 2014 hasta diciembre de 2017**, con un total de **48 meses registrados**, por lo que no existen meses faltantes en el período analizado.
+
+Los meses con mayor volumen de ventas fueron:
+
+- Noviembre de 2017: **118.447,81**
+- Diciembre de 2016: **96.999,07**
+- Septiembre de 2017: **87.866,66**
+
+Por otra parte, los meses con menor volumen de ventas fueron:
+
+- Febrero de 2014: **4.519,92**
+- Febrero de 2015: **11.951,40**
+- Enero de 2014: **14.236,90**
+
+Al observar los resultados se aprecia que las ventas tienden a ser más altas en los últimos meses del año, especialmente entre septiembre y diciembre, mientras que los primeros meses suelen registrar menores ingresos.
+
+En conclusión, el análisis temporal permitió identificar la evolución de las ventas y ganancias, mostrando períodos de crecimiento y disminución, además de evidenciar que los meses finales de cada año concentran los mejores resultados comerciales.
+

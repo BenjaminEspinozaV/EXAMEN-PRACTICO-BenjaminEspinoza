@@ -1,0 +1,14 @@
+### Pregunta 8. Análisis Pareto de ventas y rentabilidad
+
+Para este análisis se aplicó la regla de Pareto (80/20) sobre las ventas y las ganancias de los productos. Se ordenaron los productos de mayor a menor contribución y se calculó su participación acumulada utilizando funciones de ventana.
+
+En el análisis de ganancias se obtuvo que, de un total de **1894 productos**, solamente **167 productos** concentran aproximadamente el **80% de las ganancias** totales de la empresa.
+
+Esto demuestra que una pequeña cantidad de productos genera la mayor parte de la rentabilidad, mientras que el resto aporta una proporción mucho menor.
+
+Además, se calculó el porcentaje de participación individual y acumulada de cada producto para identificar cuáles tienen el mayor impacto económico dentro del negocio.
+
+Al comparar ventas y ganancias, se puede observar que los productos que más venden no siempre son los que generan más ganancias. Algunos productos pueden tener ventas elevadas pero márgenes bajos debido a descuentos, costos o menor rentabilidad, mientras que otros productos con menos ventas pueden aportar mayores beneficios.
+
+En conclusión, el análisis Pareto permitió identificar los productos más importantes para la empresa, demostrando que una parte reducida del catálogo concentra la mayor contribución económica y merece una atención especial en las estrategias comerciales.
+
