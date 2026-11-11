@@ -1,0 +1,21 @@
+### Pregunta 6. Análisis del impacto de los descuentos
+
+Para este análisis se clasificaron los registros en cuatro grupos: sin descuento, descuento bajo, descuento medio y descuento alto. Luego se calcularon las ventas, ganancias y rentabilidad de cada grupo.
+
+Los resultados muestran que los productos **sin descuento** tuvieron el mejor desempeño, con ventas de **1.087.908,47** y ganancias de **320.987,88**, obteniendo un margen de rentabilidad de **29,51%**.
+
+Los productos con **descuento bajo** también generaron ganancias positivas, aunque con un margen menor de **11,91%**.
+
+Sin embargo, los descuentos más altos afectaron negativamente la rentabilidad. Los productos con **descuento medio** registraron pérdidas de **\-58.817,21** y un margen de **\-19,70%**. Por su parte, los productos con **descuento alto** obtuvieron pérdidas de **\-76.559,23** y un margen de **\-119,20%**.
+
+Además, se observó que el porcentaje de registros no rentables aumenta a medida que crece el descuento:
+
+- Sin descuento: **0,63%**
+- Descuento bajo: **14,33%**
+- Descuento medio: **94,04%**
+- Descuento alto: **100%**
+
+Entre las categorías más afectadas se encontraron las subcategorías **Tables**, **Bookcases**, **Supplies** y **Machines**, ya que presentaron las menores ganancias acumuladas y una gran cantidad de registros con pérdidas.
+
+En conclusión, el análisis demuestra que los descuentos elevados están directamente relacionados con una mayor cantidad de operaciones no rentables. Mientras los descuentos bajos aún permiten obtener ganancias, los descuentos medios y altos generan pérdidas significativas para la empresa.
+

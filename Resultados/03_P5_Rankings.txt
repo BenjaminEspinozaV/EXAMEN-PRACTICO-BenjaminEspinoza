@@ -1,0 +1,22 @@
+Pregunta 5. Ranking de productos según rentabilidad
+
+Para este análisis se utilizaron las funciones **RANK()**, **DENSE\_RANK()** y funciones de agregación para evaluar el desempeño económico de los productos.
+
+Primero se calcularon las ventas totales, ganancias totales, unidades vendidas y margen de ganancia de cada producto. Después, se generaron rankings por categoría para identificar los productos más rentables y los que presentaban menor rentabilidad.
+
+Los resultados permitieron identificar los cinco productos con mayor volumen de ventas y también los cinco productos con peor margen de rentabilidad.
+
+Entre los productos con menor rentabilidad se encontraron:
+
+- Eureka Disposable Bags for Sanitaire Vibra Groomer I Upright Vac
+- Bush Westfield Collection Bookcases, Dark Cherry Finish
+- Euro Pro Shark Stick Mini Vacuum
+- Okidata B401 Printer
+- Zebra GK420t Direct Thermal/Thermal Transfer Printer
+
+Estos productos registraron ganancias negativas y márgenes de rentabilidad bajos, por lo que representan los productos con peor desempeño económico.
+
+Gracias al uso de las funciones de ventana fue posible asignar una posición a cada producto dentro de su categoría y comparar fácilmente cuáles generan mayores beneficios y cuáles requieren una revisión de precios, costos o estrategias de venta.
+
+En conclusión, el análisis permitió identificar los productos más rentables, los más vendidos y aquellos que generan pérdidas, proporcionando información útil para la toma de decisiones comerciales.
+
