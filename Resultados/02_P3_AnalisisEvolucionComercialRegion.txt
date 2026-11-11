@@ -1,0 +1,7 @@
+
+Para este análisis se utilizó una consulta con CTE y funciones de ventana para calcular las ventas, ganancias y margen de rentabilidad por región.
+Los resultados muestran que la región West tuvo el mejor desempeño comercial, con ventas de 725.457,93 y ganancias de 108.418,79, obteniendo además el mayor margen de rentabilidad (14,94%).
+La región East ocupó el segundo lugar con ganancias de 91.522,84, seguida por South con 46.749,71.
+Por otro lado, la región Central presentó el menor desempeño, registrando ganancias de 39.706,45 y el margen de rentabilidad más bajo (7,92%).
+Mediante las funciones de ventana se generó un ranking de ganancias, permitiendo identificar que West fue la región con mejor desempeño comercial y Central la de menor desempeño.
+En conclusión, las regiones West y East son las más rentables para la empresa, mientras que Central requiere un análisis más detallado para mejorar sus resultados.

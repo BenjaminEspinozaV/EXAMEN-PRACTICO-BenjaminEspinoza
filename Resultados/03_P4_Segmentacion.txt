@@ -1,0 +1,17 @@
+
+Para este análisis se utilizó la metodología RFM (Recency, Frequency y Monetary) para clasificar a los clientes según su comportamiento de compra.
+
+- Recency: se calculó tomando la fecha más reciente del dataset y contando los días desde la última compra de cada cliente.
+- Frequency: se obtuvo contando la cantidad de órdenes realizadas por cada cliente.
+- Monetary: se calculó sumando el total de ventas generadas por cada cliente.
+Posteriormente, se asignaron puntuaciones de 1 a 5 mediante funciones de ventana y se clasificó a los clientes en diferentes segmentos.
+Los resultados muestran que existen:
+
+- 233 clientes ocasionales
+- 174 clientes inactivos
+- 144 clientes en riesgo
+- 142 clientes recurrentes
+- 100 clientes de alto valor
+Los clientes de alto valor son aquellos que compran con frecuencia, han realizado compras recientes y generan mayores ingresos. Por ejemplo, clientes como Sanjit Engle y John Lee obtuvieron la puntuación máxima en el análisis RFM.
+Los clientes recurrentes compran de manera constante, mientras que los clientes en riesgo e inactivos llevan mucho tiempo sin realizar compras y podrían abandonar la empresa si no se aplican estrategias de fidelización.
+En conclusión, la mayor parte de los clientes se encuentra en los segmentos de clientes ocasionales e inactivos, mientras que un grupo menor corresponde a clientes de alto valor, que representan los clientes más importantes para el negocio.
